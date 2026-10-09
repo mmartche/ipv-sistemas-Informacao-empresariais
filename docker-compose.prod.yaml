@@ -1,0 +1,5 @@
+services:
+  odoo:
+    ports:
+      !override
+      - "0.0.0.0:8069:8069"

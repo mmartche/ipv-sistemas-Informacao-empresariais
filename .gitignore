@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+
+config/odoo.conf
+!config/.gitkeep
+
+*.log
+.DS_Store
+__pycache__/
+*.pyc

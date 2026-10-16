@@ -1,0 +1,13 @@
+<!-- views/teste_modelo_views.xml -->
+<odoo>
+    <record id="teste_modelo_action" model="ir.actions.act_window">
+        <field name="name">Testes</field>
+        <field name="res_model">teste.modelo</field>
+        <field name="view_mode">list,form</field>
+    </record>
+    <menuitem id="teste_menu_root" name="Teste">
+        <menuitem id="teste_menu_dados" name="Dados">
+            <menuitem id="teste_modelo_menu" action="teste_modelo_action" />
+        </menuitem>
+    </menuitem>
+</odoo>
